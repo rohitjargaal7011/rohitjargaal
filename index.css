@@ -1,0 +1,510 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*-----------------------------header start---------------------------------------------------*/
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image:url("pexels-hngstrm-1939485.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.LOGO{
+    color: #2ec4b6;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Poetsen One", sans-serif;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.bar{
+    display: none;
+}
+.fa-bars{
+    color: black;
+    font-size: 2rem;
+}
+.loginbtn{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.loginbtn a{
+    color: white;
+    text-decoration: none;
+}
+.contentbox{
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 100px;
+}
+span{
+    color: #3a86ff;
+}
+h3{
+    font-size: 30px;
+    color: black;
+}
+h1{
+    font-size: 60px;
+    color: black;
+}
+/*----------------------------------------header end---------------------------------------------------*/
+
+
+
+/*-----------------------------------------main2 start-------------------------------------------------*/
+.main2{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.about-img{
+    width: 30%;
+    background-color: white;
+    height: 65vh;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px black;
+}
+.about-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about-content{
+    width: 40%;
+    background-color: white;
+    padding: 1rem 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.three-option{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.three-option a{
+    text-decoration: none;
+    color: white;
+}
+.three-option a:active{
+    border-bottom: 4px solid red;
+}
+.btn1 , .btn2 , .btn3{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+}
+.btn1{
+    border-bottom: 5px solid  #fca311;
+}
+.btn1:active{
+    color:#fca311;
+}
+.btn2:active{
+    color:#fca311;
+}
+.btn3:active{
+    color:#fca311;
+}
+.skills{
+    margin-top: 30px;
+}
+.experience{
+    margin-top: 30px;
+    display: none;
+}
+.educations{
+    margin-top: 30px;
+    display: none;
+}
+p2{
+    color: #6c757d;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+p{
+    color: black;
+}
+/*-----------------------------------------main2 end-------------------------------------------------*/
+
+
+
+/*-----------------------------------------main3 start-----------------------------------------------*/
+.main3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+.heading{
+    height: 100px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #2ec4b6;
+    border-radius: 10px;
+    width: 40%;
+}
+h5{
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    color: black;
+}
+.services{
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service1 , .service2 , .service3{
+    background-color: #495057;
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.4s ease 0s;
+}
+.service1:hover ,.service2:hover ,.service3:hover {
+    background-color: black;
+    transform: scale(1.1);
+    /* width: 310px;
+    height: 280px; */
+}
+.openservice-link{
+    text-decoration: none;
+    color: white;
+}
+p3{
+    color: white;
+}
+h6{
+    color: white;
+    font-size: 27px;
+}
+.fa-android  {
+    color: white;
+    font-size: 90px;
+}
+.fa-instalod{
+    color: white;
+    font-size: 90px;
+}
+.fa-code{
+    color: white;
+    font-size: 90px;
+}
+/*-----------------------------------------main3 end-----------------------------------------------*/
+
+
+
+/*-----------------------------------------main4 start-----------------------------------------------*/
+.main4{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.text{
+    margin: 0px auto;
+    text-align: center;
+    background-color: #2ec4b6;
+    border-radius: 10px;
+    width: 40%;
+    height: 100px;
+}
+h7{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 80px;
+}
+.cardbox{
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;   
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);   
+}
+.card:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+}
+.card-content{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 0px;
+    left: 0;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: space-evenly;
+    text-align: center;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.card:hover .card-content{
+    bottom: 0px;
+    height: 210px;
+    background-color: #ced4da;
+}
+.card:hover .card-content p5{
+    visibility: visible;
+    opacity: 1;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.card-content p5 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+/*-----------------------------------------main4 end-----------------------------------------------*/
+
+
+/*----------------------------------------main5 start----------------------------------------------*/
+.main5{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.header-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+p4{
+    color: black;
+}
+.paragraph{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.formbox{
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 140px);
+    padding: 0px 200px;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.address , .phone , .email{
+    display: inline-flex;
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+}
+.add-img, .pho-img ,.ema-img{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.fa-location-dot , .fa-phone , .fa-envelope{
+    color: black;
+    font-size: 25px;
+}
+.add-content ,.pho-content ,.ema-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+}
+h8{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+p6{
+    color: #9e0059;
+    font-weight: bolder;
+}
+.form{
+    height: 80%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    border: 3px solid white;
+}
+.form:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+}
+.form:hover h9{
+    color: #9e0059;
+}
+.queryform{
+    width: 80%;
+    text-align: center;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+}
+h9{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+}
+.fullname ,.emailhere, .message{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.querinput{
+    font-size: 20px;
+    color: black;
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+.emailhai ,.full ,.meassageheading{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+textarea{
+    outline: none;
+}
+.formbtn{
+    color: white;
+    background-color: blue;
+    padding: 0.8rem 20px;
+    width: 35%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    border: none;
+}
+.formbtn:active{
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 0px 10px blue;
+}
+.socialmedia-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    bottom: 20px;
+}
+.socialmedia-link i{
+    font-size: 30px;
+}
+/*-----------------------------main5 end---------------------------------------------------*/
+
+/*------------------------------phone screen----------------------------------------------*/
+/*------------------------------map box start---------------------------------------------*/
+.mapbox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+p5{
+    width: 100%;
+}

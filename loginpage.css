@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popupContainer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    background-image: url(ecommerce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.formContainer{
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px 60px;
+    width: 90%;
+    box-shadow: 0px 0px  20px rgba(0, 0, 0, 0.6);
+    background-color: #fff;
+    
+}
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.inputField{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 16px;
+}
+.inputField i{
+    margin-left: 15px;
+}
+.resetlink{
+    color: purple;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttonBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    margin-top: 20px;
+}
+.buttonBox button{
+    width: 45%;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: blue;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 16px;
+}

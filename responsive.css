@@ -1,0 +1,239 @@
+@media (max-width:600px) {
+    .header{
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    ul{
+        display: none;
+    }
+    nav{
+        padding: 0px 20px;
+    }
+    .LOGO{
+        font-size: 30px;
+    }
+    .contentbox{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0px;
+    }
+    h1,h3{
+        color: white;
+    }
+    span{
+        color: #fff;
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        justify-content: start;
+        gap: 10px;
+    }
+    .about-content{
+        width: 90%;
+        height: auto;
+    }
+    header-content{
+        height: 100%;
+    }
+    .about-img{
+        width: 90%;
+        height: 50vh;
+        border-radius: 10px;
+        background-color: pink;
+    }
+    .about-img img{
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .service1,.service2,.service3{
+        width: 40%;
+        height: 30%;
+    }
+    .heading{
+        width: 100%;
+    }
+    h5{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    p2{
+        font-size: 15px;
+    }
+    h11{
+        color: black;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    /*-----------------------------------main3-----------------------------------------*/
+    .main3{
+        height: auto;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .heading{
+        height: auto;
+        margin: 0px auto;
+        text-align: center;
+        background-color: #2ec4b6;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .services{
+        height: auto;
+    }
+    .service1 , .service2 , .service3{
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .main4{
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .cardbox{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .text{
+        width: 100%;
+        height: auto;
+        padding: 16px 0px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .main5{
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    h7{
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .paragraph{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .formbox{
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding: 0px 0px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .paragraph{
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .contact-info{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+    }
+    .address , .phone , .email{
+        display: flex;
+        height: auto;
+        justify-content: start;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+    .add-img, .pho-img ,.ema-img{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .add-content ,.pho-content ,.ema-content{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .form{
+        height: auto;
+        width: 100%;
+        border-radius: 7px;
+        box-shadow: none;
+        border: 3px solid white;
+        margin-top: 30px;
+    }
+    .form:hover{
+        box-shadow: 0px 0px 0px white;
+    }
+    .header-form{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .queryform{
+        width: 90%;
+        background-color: #e2e2e2;
+        text-align: start;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        padding: 20px 20px;
+        align-items: center;
+
+    }
+    .querinput{
+        font-size: 20px;
+        color: black;
+        width: 70%;
+        padding: 10px 30px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 2px solid black;
+    }
+    .formbtn{
+        color: white;
+        background-color: blue;
+        padding: 0.8rem 20px;
+        width: 35%;
+        border-radius: 10px;
+        outline: none;
+        font-size: 1rem;
+        border: none;
+        margin-top: 20px;
+    }
+    .socialmedia-link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        position: absolute;
+        bottom: 30px;
+    }
+}

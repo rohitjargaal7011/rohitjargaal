@@ -1,0 +1,14 @@
+let search = document.querySelector(".fa-magnifying-glass");
+let right = document.querySelector(".right");
+let wrong = document.querySelector(".fa-circle-xmark");
+search.addEventListener("click",()=>{
+    right.style.width = "400px"
+    search.style.top = "35px"
+    wrong.style.display = "block";
+    search.style.display = "none";
+})
+wrong.addEventListener("click",()=>{
+    wrong.style.display = "none";
+    search.style.display = "block";
+    right.style.width = "0px"
+})
